@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    list-style: none;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: #010101;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    display: flex;
+    width: 100vw;
+  }
+
+  .profile{
+      height:100vh;
+      width: 25%;
+        background-color:antiquewhite;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        
+        
+  }
+
+  .story-content{
+      height: 100vh;
+      width: 75%;
+      background-color: #FFFFFF;
+      transform: translateX(35%);
+  }
+
+
+  .profile-image{
+      height: 150px;
+      width: 150px;
+      margin: 5% 25%;
+      display: flex;
+      justify-content: center;
+      border-radius: 75px;
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .intro-para {
+      font-size: 1rem;
+      margin: 0rem 0.5rem;
+  }
+
+  .name{
+      font-size: 2rem;
+      font-weight: 700;
+      color: chocolate;
+      display: flex;
+      justify-content: center;
+  }
+
+  .cv-btn{
+      height: 120px;
+      width: 120px;
+      font-weight: 600;
+      border-radius: 20px;
+      background-color: chocolate;
+      margin-left: 25%;
+      margin-top: 5%;
+      border: none;
+  }
+
+  .social-content{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20%;
+  }
+
+
+  .heading{
+      display: flex;
+      justify-content: center;
+      font-size: 4rem;
+  }
+
+  .blogs-card-content{
+      display: grid;
+      grid-template-columns: auto auto;
+     
+  }
+
+  .blog-card{
+      height: 250px;
+      width: 300px;
+      background-color: #F0F0F0;
+      margin-bottom: 60px;
+      margin-left: 60px;
+      
+  }
+
+  .blog-card:hover{
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+ 
+
+  .blog-img{
+      height: 200px;
+      width: 300px;
+  }
+
+  .blog-text{
+      background-color: #F0F0F0;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  a, a:visited, a:hover, a:active {
+    color: inherit;
+  }

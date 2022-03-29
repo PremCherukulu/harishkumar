@@ -60,7 +60,7 @@
   }
 
   .cv-btn{
-      height: 120px;
+      height: 40px;
       width: 120px;
       font-weight: 600;
       border-radius: 20px;
@@ -71,7 +71,7 @@
   }
 
   .social-content{
-        height: 20%;
+        height: 10%;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
